@@ -100,7 +100,7 @@ ul li a:hover {
 
 .subtitle {
     letter-spacing: 2px;
-    color: #6b7280;
+    color: #e9d5ff;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
@@ -117,9 +117,36 @@ ul li a:hover {
     font-weight: 600;
 }
 
+.text {
+    position: relative
+}
+
+.text .first-text {
+    color: #ffffff;
+}
+
+.text .sec-text :before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0f172a;
+    border-left: 2px solid #9333ea;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
 .description {
     line-height: 1.5rem;
-    color: #6b7280;
+    color: #e9d5ff;
     margin-bottom: 2rem;
 }
 
@@ -140,22 +167,13 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.hire__me {
+.about__me {
     background-color: #a855f7;
     color: #ffffff;
 }
 
-.hire__me:hover {
+.about__me:hover {
     background-color: #9333ea;
-}
-
-.portfolio {
-    color: #a855f7;
-}
-
-.portfolio:hover {
-    background-color: #9333ea;
-    color: #ffffff;
 }
 
 .image {
