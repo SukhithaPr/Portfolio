@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Qwitcher+Grypen:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 * {
@@ -20,6 +21,7 @@ nav {
     top: 0;
     left: 0;
     background-color: #0f172a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 99;
 }
 
@@ -33,8 +35,9 @@ nav {
 }
 
 nav .logo a {
+    font-family: "Dela Gothic One", cursive;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #a855f7;
     transition: 0.3s;
 }
@@ -101,6 +104,7 @@ ul li a:hover {
 }
 
 .subtitle {
+    font-size: 2rem;
     letter-spacing: 2px;
     color: #e9d5ff;
     font-weight: 600;
@@ -116,6 +120,7 @@ ul li a:hover {
 }
 
 .title span {
+    font-family: "Dela Gothic One", cursive;
     color: #9333ea;
     font-weight: 600;
 }
@@ -132,7 +137,9 @@ ul li a:hover {
 }
 
 .image img {
+    border-radius: 50%;
     width: min(25rem, 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (width < 750px) {
