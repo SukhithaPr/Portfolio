@@ -34,7 +34,7 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo a {
+nav .logo .nav__links {
     font-family: "Dela Gothic One", cursive;
     font-size: 1.5rem;
     font-weight: 400;
@@ -42,7 +42,7 @@ nav .logo a {
     transition: 0.3s;
 }
 
-nav .logo a:hover {
+nav .logo .nav__links:hover {
     color: #c4b5fd;
     font-size: 1.7rem;
 }
@@ -69,7 +69,7 @@ ul {
     transition: left 0.3s;
 }
 
-ul li a {
+ul li .nav__links {
     padding: 0.5rem 1rem;
     border: 2px solid transparent;
     text-decoration: none;
@@ -78,7 +78,7 @@ ul li a {
     transition: 0.3s;
 }
 
-ul li a:hover {
+ul li .nav__links:hover {
     color: #c4b5fd;
     font-size: 1.3rem;
 }
@@ -112,17 +112,24 @@ ul li a:hover {
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 700;
     line-height: 3rem;
     color: #9333ea;
     margin-bottom: 1rem;
 }
 
 .title span {
+    font-size: 2.5rem;
     font-family: "Dela Gothic One", cursive;
     color: #9333ea;
     font-weight: 600;
+}
+
+.title span:hover {
+    color: #c4b5fd;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .description {
@@ -139,7 +146,18 @@ ul li a:hover {
 .image img {
     border-radius: 50%;
     width: min(25rem, 100%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-bar .socials {
+    font-size: 2rem;
+    color: #a855f7;
+    margin: 0 0.5rem;
+    transition: 0.3s;
+}
+
+.icon-bar .socials:hover {
+    color: #c4b5fd;
+    transform: scale(1.2);
 }
 
 @media (width < 750px) {
@@ -163,7 +181,7 @@ ul li a:hover {
         left: 0;
     }
 
-    ul li a {
+    ul li .nav__links {
         font-size: 1.25rem;
     }
 
