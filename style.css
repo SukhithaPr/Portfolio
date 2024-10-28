@@ -7,10 +7,34 @@
     box-sizing: border-box;
 }
 
-a {
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 600;
     text-decoration: none;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
+.navbar a:hover {
+    background-color: #000;
+    color: #f1f1f1;
+}
+
+.navbar a.split {
+    float: right;
+    background-color: #7e22ce;
+    color: #f1f1f1;
 }
