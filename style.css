@@ -93,3 +93,50 @@ html {
     color: #c4b5fd;
     transform: scale(1.2);
 }
+
+/** About Section **/
+
+.about {
+    display: flex;
+    margin: 0%;
+}
+
+.about > div {
+    margin: 10px;
+    padding: 5px;
+}
+
+.about-image {
+    /* border-radius: 50%; */
+    width: 70%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.about-image-name {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* .container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+} */
