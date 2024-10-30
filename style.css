@@ -270,3 +270,43 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #5d1999;
 }
+
+/** Projects Section **/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flexbox .flex-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox .flex-card-listitem {
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    background-color: #c4b5fd;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.flexbox .flex-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-card-list li {
+    width: 400px;
+    margin: .55em;
+}
+
+.flex-card-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
